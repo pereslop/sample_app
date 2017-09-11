@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a9c7d49a-fd34-443f-b3f5-244b8725db0f" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.generators" afterPath="$PROJECT_DIR$/.idea/.generators" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sample_app.iml" afterPath="$PROJECT_DIR$/.idea/sample_app.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/user.rb" afterPath="$PROJECT_DIR$/app/models/user.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/fixtures/users.yml" afterPath="$PROJECT_DIR$/test/fixtures/users.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/models/user_test.rb" afterPath="$PROJECT_DIR$/test/models/user_test.rb" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -36,11 +37,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="user.rb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="user.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/user.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="43" lean-forward="false" selection-start-line="1" selection-start-column="43" selection-end-line="1" selection-end-column="43" />
+            <state relative-caret-position="120">
+              <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="20170911071811_add_password_digest_to_users.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db/migrate/20170911071811_add_password_digest_to_users.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Gemfile" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Gemfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="21" lean-forward="false" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -92,7 +113,6 @@
         <option value="$PROJECT_DIR$/app/helpers/application_helper.rb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
         <option value="$PROJECT_DIR$/example_user.rb" />
-        <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/views/layouts/_shim.html.erb" />
         <option value="$PROJECT_DIR$/app/views/layouts/_rails_default.html.erb" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
@@ -115,6 +135,8 @@
         <option value="$PROJECT_DIR$/test/fixtures/users.yml" />
         <option value="$PROJECT_DIR$/test/models/user_test.rb" />
         <option value="$PROJECT_DIR$/app/models/user.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20170911071811_add_password_digest_to_users.rb" />
+        <option value="$PROJECT_DIR$/Gemfile" />
       </list>
     </option>
   </component>
@@ -196,10 +218,10 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="SearchEverywhereHistoryKey" value="users.&#9;FILE&#9;file:///Users/mkaba/study/sample_app/test/fixtures/users.yml&#10;user&#9;FILE&#9;file:///Users/mkaba/study/sample_app/app/models/user.rb&#10;use&#9;null&#9;null&#10;new&#9;FILE&#9;file:///Users/mkaba/study/sample_app/app/views/users/new.html.erb&#10;home&#9;FILE&#9;file:///Users/mkaba/study/sample_app/app/views/static_pages/home.html.erb&#10;applica&#9;FILE&#9;file:///Users/mkaba/study/sample_app/test/helpers/application_helper_test.rb&#10;site&#9;FILE&#9;file:///Users/mkaba/study/sample_app/test/integration/site_layout_test.rb&#10;руд&#9;FILE&#9;file:///Users/mkaba/study/sample_app/test/test_helper.rb&#10;si\&#9;FILE&#9;file:///Users/mkaba/study/sample_app/test/integration/site_layout_test.rb&#10;SITE&#9;null&#9;null&#10;c&#9;FILE&#9;file:///Users/mkaba/study/sample_app/app/views/static_pages/contact.html.erb&#10;_fo&#9;FILE&#9;file:///Users/mkaba/study/sample_app/app/views/layouts/_footer.html.erb&#10;rou&#9;FILE&#9;file:///Users/mkaba/study/sample_app/config/routes.rb&#10;co&#9;FILE&#9;file:///Users/mkaba/study/sample_app/app/views/static_pages/contact.html.erb&#10;stati&#9;FILE&#9;file:///Users/mkaba/study/sample_app/app/controllers/static_pages_controller.rb&#10;_hea&#9;FILE&#9;file:///Users/mkaba/study/sample_app/app/views/layouts/_header.html.erb&#10;_foo&#9;FILE&#9;file:///Users/mkaba/study/sample_app/app/views/layouts/_footer.html.erb&#10;_shi&#9;FILE&#9;file:///Users/mkaba/study/sample_app/app/views/layouts/_shim.html.erb&#10;gem&#9;FILE&#9;file:///Users/mkaba/study/sample_app/Gemfile&#10;cus&#9;FILE&#9;file:///Users/mkaba/study/sample_app/app/assets/stylesheets/custom.scss&#10;exa&#9;FILE&#9;file:///Users/mkaba/study/sample_app/example_user.rb&#10;css&#9;FILE&#9;file:///Users/mkaba/study/sample_app/app/assets/stylesheets/application.css&#10;a&#9;FILE&#9;file:///Users/mkaba/study/sample_app/test/controllers/static_pages_controller_test.rb&#10;app&#9;FILE&#9;file:///Users/mkaba/study/sample_app/app/views/layouts/application.html.erb&#10;guar&#9;FILE&#9;file:///Users/mkaba/study/sample_app/Guardfile&#10;test_&#9;FILE&#9;file:///Users/mkaba/study/sample_app/test/test_helper.rb&#10;іефеш&#9;FILE&#9;file:///Users/mkaba/study/sample_app/test/controllers/static_pages_controller_test.rb&#10;help&#9;FILE&#9;file:///Users/mkaba/study/sample_app/app/views/static_pages/help.html.erb&#10;appl&#9;FILE&#9;file:///Users/mkaba/study/sample_app/app/views/layouts/application.html.erb&#10;bo&#9;FILE&#9;file:///Users/mkaba/study/sample_app/app/views/static_pages/about.html.erb&#10;stat&#9;null&#9;null&#10;abou&#9;FILE&#9;file:///Users/mkaba/study/sample_app/app/views/static_pages/about.html.erb&#10;hom&#9;FILE&#9;file:///Users/mkaba/study/sample_app/app/views/static_pages/home.html.erb&#10;rout&#9;FILE&#9;file:///Users/mkaba/study/sample_app/config/routes.rb&#10;contr&#9;FILE&#9;file:///Users/mkaba/study/sample_app/app/controllers/application_controller.rb" />
+    <property name="SearchEverywhereHistoryKey" value="gem&#9;FILE&#9;file:///Users/mkaba/study/sample_app/Gemfile&#10;users.&#9;FILE&#9;file:///Users/mkaba/study/sample_app/test/fixtures/users.yml&#10;user&#9;FILE&#9;file:///Users/mkaba/study/sample_app/app/models/user.rb&#10;use&#9;null&#9;null&#10;new&#9;FILE&#9;file:///Users/mkaba/study/sample_app/app/views/users/new.html.erb&#10;home&#9;FILE&#9;file:///Users/mkaba/study/sample_app/app/views/static_pages/home.html.erb&#10;applica&#9;FILE&#9;file:///Users/mkaba/study/sample_app/test/helpers/application_helper_test.rb&#10;site&#9;FILE&#9;file:///Users/mkaba/study/sample_app/test/integration/site_layout_test.rb&#10;руд&#9;FILE&#9;file:///Users/mkaba/study/sample_app/test/test_helper.rb&#10;si\&#9;FILE&#9;file:///Users/mkaba/study/sample_app/test/integration/site_layout_test.rb&#10;SITE&#9;null&#9;null&#10;c&#9;FILE&#9;file:///Users/mkaba/study/sample_app/app/views/static_pages/contact.html.erb&#10;_fo&#9;FILE&#9;file:///Users/mkaba/study/sample_app/app/views/layouts/_footer.html.erb&#10;rou&#9;FILE&#9;file:///Users/mkaba/study/sample_app/config/routes.rb&#10;co&#9;FILE&#9;file:///Users/mkaba/study/sample_app/app/views/static_pages/contact.html.erb&#10;stati&#9;FILE&#9;file:///Users/mkaba/study/sample_app/app/controllers/static_pages_controller.rb&#10;_hea&#9;FILE&#9;file:///Users/mkaba/study/sample_app/app/views/layouts/_header.html.erb&#10;_foo&#9;FILE&#9;file:///Users/mkaba/study/sample_app/app/views/layouts/_footer.html.erb&#10;_shi&#9;FILE&#9;file:///Users/mkaba/study/sample_app/app/views/layouts/_shim.html.erb&#10;cus&#9;FILE&#9;file:///Users/mkaba/study/sample_app/app/assets/stylesheets/custom.scss&#10;exa&#9;FILE&#9;file:///Users/mkaba/study/sample_app/example_user.rb&#10;css&#9;FILE&#9;file:///Users/mkaba/study/sample_app/app/assets/stylesheets/application.css&#10;a&#9;FILE&#9;file:///Users/mkaba/study/sample_app/test/controllers/static_pages_controller_test.rb&#10;app&#9;FILE&#9;file:///Users/mkaba/study/sample_app/app/views/layouts/application.html.erb&#10;guar&#9;FILE&#9;file:///Users/mkaba/study/sample_app/Guardfile&#10;test_&#9;FILE&#9;file:///Users/mkaba/study/sample_app/test/test_helper.rb&#10;іефеш&#9;FILE&#9;file:///Users/mkaba/study/sample_app/test/controllers/static_pages_controller_test.rb&#10;help&#9;FILE&#9;file:///Users/mkaba/study/sample_app/app/views/static_pages/help.html.erb&#10;appl&#9;FILE&#9;file:///Users/mkaba/study/sample_app/app/views/layouts/application.html.erb&#10;bo&#9;FILE&#9;file:///Users/mkaba/study/sample_app/app/views/static_pages/about.html.erb&#10;stat&#9;null&#9;null&#10;abou&#9;FILE&#9;file:///Users/mkaba/study/sample_app/app/views/static_pages/about.html.erb&#10;hom&#9;FILE&#9;file:///Users/mkaba/study/sample_app/app/views/static_pages/home.html.erb&#10;rout&#9;FILE&#9;file:///Users/mkaba/study/sample_app/config/routes.rb&#10;contr&#9;FILE&#9;file:///Users/mkaba/study/sample_app/app/controllers/application_controller.rb" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -529,7 +551,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48878000" />
+    <option name="totallyTimeSpent" value="49975000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -542,7 +564,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="977" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18177083" sideWeight="0.49293286" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295562" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
@@ -553,7 +574,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3940043" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3940043" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18177083" sideWeight="0.50706714" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -587,13 +608,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/static_pages/about.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="4" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/application_record.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -752,14 +766,6 @@
     <entry file="file://$PROJECT_DIR$/app/assets/images/kitten.png">
       <provider selected="true" editor-type-id="images">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/_shim.html.erb">
@@ -955,8 +961,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/user.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="43" lean-forward="false" selection-start-line="1" selection-start-column="43" selection-end-line="1" selection-end-column="43" />
+        <state relative-caret-position="120">
+          <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20170911071811_add_password_digest_to_users.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="21" lean-forward="false" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
           <folding />
         </state>
       </provider>
