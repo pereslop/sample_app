@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a9c7d49a-fd34-443f-b3f5-244b8725db0f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.generators" afterPath="$PROJECT_DIR$/.idea/.generators" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sample_app.iml" afterPath="$PROJECT_DIR$/.idea/sample_app.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/controllers/users_controller_test.rb" afterPath="$PROJECT_DIR$/test/controllers/users_controller_test.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/environments/production.rb" afterPath="$PROJECT_DIR$/config/environments/production.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/puma.rb" afterPath="$PROJECT_DIR$/config/puma.rb" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -98,41 +96,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="users_helper.rb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="users_helper.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/helpers/users_helper.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="153">
+              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file leaf-file-name="production.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+            <state relative-caret-position="317">
+              <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Guardfile" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Guardfile">
+      <file leaf-file-name="puma.rb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config/puma.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="32" column="22" lean-forward="false" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="users.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/fixtures/users.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-8">
-              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+            <state relative-caret-position="255">
+              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -155,7 +143,13 @@
       <find>#a</find>
       <find># as</find>
       <find># a</find>
-      <find>#</find>
+      <find>ssl</find>
+      <find>oum</find>
+      <find>o</find>
+      <find>ou</find>
+      <find>pu</find>
+      <find>pum</find>
+      <find>puma</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -203,6 +197,9 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/test/controllers/users_controller_test.rb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
+        <option value="$PROJECT_DIR$/app/helpers/users_helper.rb" />
+        <option value="$PROJECT_DIR$/config/environments/production.rb" />
+        <option value="$PROJECT_DIR$/config/puma.rb" />
       </list>
     </option>
   </component>
@@ -263,93 +260,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sample_app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sample_app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="system" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sample_app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sample_app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sample_app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sample_app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sample_app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sample_app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sample_app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sample_app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="helpers" />
+              <option name="myItemId" value="config" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -362,7 +273,7 @@
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Font" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="SearchEverywhereHistoryKey" value="routes&#9;FILE&#9;file:///Users/mkaba/study/sample_app/config/routes.rb&#10;test&#9;FILE&#9;file:///Users/mkaba/study/sample_app/test/models/user_test.rb&#10;user_tes&#9;FILE&#9;file:///Users/mkaba/study/sample_app/test/models/user_test.rb&#10;gem&#9;FILE&#9;file:///Users/mkaba/study/sample_app/Gemfile&#10;users.&#9;FILE&#9;file:///Users/mkaba/study/sample_app/test/fixtures/users.yml&#10;user&#9;FILE&#9;file:///Users/mkaba/study/sample_app/app/models/user.rb&#10;use&#9;null&#9;null&#10;new&#9;FILE&#9;file:///Users/mkaba/study/sample_app/app/views/users/new.html.erb&#10;home&#9;FILE&#9;file:///Users/mkaba/study/sample_app/app/views/static_pages/home.html.erb&#10;applica&#9;FILE&#9;file:///Users/mkaba/study/sample_app/test/helpers/application_helper_test.rb&#10;site&#9;FILE&#9;file:///Users/mkaba/study/sample_app/test/integration/site_layout_test.rb&#10;руд&#9;FILE&#9;file:///Users/mkaba/study/sample_app/test/test_helper.rb&#10;si\&#9;FILE&#9;file:///Users/mkaba/study/sample_app/test/integration/site_layout_test.rb&#10;SITE&#9;null&#9;null&#10;c&#9;FILE&#9;file:///Users/mkaba/study/sample_app/app/views/static_pages/contact.html.erb&#10;_fo&#9;FILE&#9;file:///Users/mkaba/study/sample_app/app/views/layouts/_footer.html.erb&#10;rou&#9;FILE&#9;file:///Users/mkaba/study/sample_app/config/routes.rb&#10;co&#9;FILE&#9;file:///Users/mkaba/study/sample_app/app/views/static_pages/contact.html.erb&#10;stati&#9;FILE&#9;file:///Users/mkaba/study/sample_app/app/controllers/static_pages_controller.rb&#10;_hea&#9;FILE&#9;file:///Users/mkaba/study/sample_app/app/views/layouts/_header.html.erb&#10;_foo&#9;FILE&#9;file:///Users/mkaba/study/sample_app/app/views/layouts/_footer.html.erb&#10;_shi&#9;FILE&#9;file:///Users/mkaba/study/sample_app/app/views/layouts/_shim.html.erb&#10;cus&#9;FILE&#9;file:///Users/mkaba/study/sample_app/app/assets/stylesheets/custom.scss&#10;exa&#9;FILE&#9;file:///Users/mkaba/study/sample_app/example_user.rb&#10;css&#9;FILE&#9;file:///Users/mkaba/study/sample_app/app/assets/stylesheets/application.css&#10;a&#9;FILE&#9;file:///Users/mkaba/study/sample_app/test/controllers/static_pages_controller_test.rb&#10;app&#9;FILE&#9;file:///Users/mkaba/study/sample_app/app/views/layouts/application.html.erb&#10;guar&#9;FILE&#9;file:///Users/mkaba/study/sample_app/Guardfile&#10;test_&#9;FILE&#9;file:///Users/mkaba/study/sample_app/test/test_helper.rb&#10;іефеш&#9;FILE&#9;file:///Users/mkaba/study/sample_app/test/controllers/static_pages_controller_test.rb&#10;help&#9;FILE&#9;file:///Users/mkaba/study/sample_app/app/views/static_pages/help.html.erb&#10;appl&#9;FILE&#9;file:///Users/mkaba/study/sample_app/app/views/layouts/application.html.erb&#10;bo&#9;FILE&#9;file:///Users/mkaba/study/sample_app/app/views/static_pages/about.html.erb&#10;stat&#9;null&#9;null&#10;abou&#9;FILE&#9;file:///Users/mkaba/study/sample_app/app/views/static_pages/about.html.erb&#10;hom&#9;FILE&#9;file:///Users/mkaba/study/sample_app/app/views/static_pages/home.html.erb&#10;rout&#9;FILE&#9;file:///Users/mkaba/study/sample_app/config/routes.rb&#10;contr&#9;FILE&#9;file:///Users/mkaba/study/sample_app/app/controllers/application_controller.rb" />
+    <property name="SearchEverywhereHistoryKey" value="pro&#9;FILE&#9;file:///Users/mkaba/study/sample_app/config/environments/production.rb&#10;routes&#9;FILE&#9;file:///Users/mkaba/study/sample_app/config/routes.rb&#10;test&#9;FILE&#9;file:///Users/mkaba/study/sample_app/test/models/user_test.rb&#10;user_tes&#9;FILE&#9;file:///Users/mkaba/study/sample_app/test/models/user_test.rb&#10;gem&#9;FILE&#9;file:///Users/mkaba/study/sample_app/Gemfile&#10;users.&#9;FILE&#9;file:///Users/mkaba/study/sample_app/test/fixtures/users.yml&#10;user&#9;FILE&#9;file:///Users/mkaba/study/sample_app/app/models/user.rb&#10;use&#9;null&#9;null&#10;new&#9;FILE&#9;file:///Users/mkaba/study/sample_app/app/views/users/new.html.erb&#10;home&#9;FILE&#9;file:///Users/mkaba/study/sample_app/app/views/static_pages/home.html.erb&#10;applica&#9;FILE&#9;file:///Users/mkaba/study/sample_app/test/helpers/application_helper_test.rb&#10;site&#9;FILE&#9;file:///Users/mkaba/study/sample_app/test/integration/site_layout_test.rb&#10;руд&#9;FILE&#9;file:///Users/mkaba/study/sample_app/test/test_helper.rb&#10;si\&#9;FILE&#9;file:///Users/mkaba/study/sample_app/test/integration/site_layout_test.rb&#10;SITE&#9;null&#9;null&#10;c&#9;FILE&#9;file:///Users/mkaba/study/sample_app/app/views/static_pages/contact.html.erb&#10;_fo&#9;FILE&#9;file:///Users/mkaba/study/sample_app/app/views/layouts/_footer.html.erb&#10;rou&#9;FILE&#9;file:///Users/mkaba/study/sample_app/config/routes.rb&#10;co&#9;FILE&#9;file:///Users/mkaba/study/sample_app/app/views/static_pages/contact.html.erb&#10;stati&#9;FILE&#9;file:///Users/mkaba/study/sample_app/app/controllers/static_pages_controller.rb&#10;_hea&#9;FILE&#9;file:///Users/mkaba/study/sample_app/app/views/layouts/_header.html.erb&#10;_foo&#9;FILE&#9;file:///Users/mkaba/study/sample_app/app/views/layouts/_footer.html.erb&#10;_shi&#9;FILE&#9;file:///Users/mkaba/study/sample_app/app/views/layouts/_shim.html.erb&#10;cus&#9;FILE&#9;file:///Users/mkaba/study/sample_app/app/assets/stylesheets/custom.scss&#10;exa&#9;FILE&#9;file:///Users/mkaba/study/sample_app/example_user.rb&#10;css&#9;FILE&#9;file:///Users/mkaba/study/sample_app/app/assets/stylesheets/application.css&#10;a&#9;FILE&#9;file:///Users/mkaba/study/sample_app/test/controllers/static_pages_controller_test.rb&#10;app&#9;FILE&#9;file:///Users/mkaba/study/sample_app/app/views/layouts/application.html.erb&#10;guar&#9;FILE&#9;file:///Users/mkaba/study/sample_app/Guardfile&#10;test_&#9;FILE&#9;file:///Users/mkaba/study/sample_app/test/test_helper.rb&#10;іефеш&#9;FILE&#9;file:///Users/mkaba/study/sample_app/test/controllers/static_pages_controller_test.rb&#10;help&#9;FILE&#9;file:///Users/mkaba/study/sample_app/app/views/static_pages/help.html.erb&#10;appl&#9;FILE&#9;file:///Users/mkaba/study/sample_app/app/views/layouts/application.html.erb&#10;bo&#9;FILE&#9;file:///Users/mkaba/study/sample_app/app/views/static_pages/about.html.erb&#10;stat&#9;null&#9;null&#10;abou&#9;FILE&#9;file:///Users/mkaba/study/sample_app/app/views/static_pages/about.html.erb&#10;hom&#9;FILE&#9;file:///Users/mkaba/study/sample_app/app/views/static_pages/home.html.erb&#10;rout&#9;FILE&#9;file:///Users/mkaba/study/sample_app/config/routes.rb&#10;contr&#9;FILE&#9;file:///Users/mkaba/study/sample_app/app/controllers/application_controller.rb" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -713,12 +624,12 @@
       <option name="presentableId" value="Default" />
       <updated>1504618863930</updated>
       <workItem from="1504618865237" duration="9978000" />
-      <workItem from="1505200112886" duration="1110000" />
+      <workItem from="1505200112886" duration="1850000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52918000" />
+    <option name="totallyTimeSpent" value="53658000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -765,27 +676,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/controllers/static_pages_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/static_pages/contact.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="4" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/static_pages/help.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="29" lean-forward="false" selection-start-line="0" selection-start-column="29" selection-end-line="0" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -1012,6 +902,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1035,11 +926,11 @@
         <state relative-caret-position="135">
           <caret line="9" column="21" lean-forward="false" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
           <folding>
-            <marker date="1505200612000" expanded="true" signature="396:471" ph="do ... end" />
-            <marker date="1505200612000" expanded="true" signature="492:654" ph="do ... end" />
-            <marker date="1505200612000" expanded="true" signature="668:844" ph="do ... end" />
-            <marker date="1505200612000" expanded="true" signature="864:891" ph="do ... end" />
-            <marker date="1505200612000" expanded="true" signature="911:975" ph="do ... end" />
+            <marker date="1505202095000" expanded="true" signature="396:471" ph="do ... end" />
+            <marker date="1505202095000" expanded="true" signature="492:654" ph="do ... end" />
+            <marker date="1505202095000" expanded="true" signature="668:844" ph="do ... end" />
+            <marker date="1505202095000" expanded="true" signature="864:891" ph="do ... end" />
+            <marker date="1505202095000" expanded="true" signature="911:975" ph="do ... end" />
           </folding>
         </state>
       </provider>
@@ -1134,8 +1025,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/helpers/users_helper.rb">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Procfile">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/puma.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding />
         </state>
       </provider>
