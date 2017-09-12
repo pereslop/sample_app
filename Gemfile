@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-'ruby' '2.2.2'
+'ruby' '2.3.4'
 gem 'rails',        '5.1.2'
 gem 'bcrypt', git: 'https://github.com/codahale/bcrypt-ruby.git', require: 'bcrypt'
 gem 'bootstrap-sass', '3.3.7'
