@@ -1,7 +1,9 @@
 class UsersController < ApplicationController
-  before_action :logget_in_user?, only: [:edit, :update]
+  before_action :logget_in_user?, only: [:index, :edit, :update]
   before_action :correct_user?, only: [:edit, :update]
-
+  def index
+    @users = collection
+  end
   def show
     @user = User.find(params[:id])
   end
